@@ -1,0 +1,2754 @@
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+[0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+
+1.1.19
+
+TypeScript version used by Compodoc : 4.5.5
+
+TypeScript version of current project : 4.6.2
+
+Node.js version : v16.15.1
+
+Operating system : Windows 10
+
+[10:54:01] No configuration file found, switching to CLI flags.
+[10:54:01] Using tsconfig file : C:\dev\storybook\taskbox\tsconfig.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.browserslistrc
+[10:54:01] Including      : C:\dev\storybook\taskbox\.editorconfig
+[10:54:01] Including      : C:\dev\storybook\taskbox\.gitignore
+[10:54:01] Including      : C:\dev\storybook\taskbox\angular.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\documentation.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\jest.config.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\LICENSE
+[10:54:01] Including      : C:\dev\storybook\taskbox\build-storybook.log
+[10:54:01] Including      : C:\dev\storybook\taskbox\package-lock.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\package.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\README.md
+[10:54:01] Including      : C:\dev\storybook\taskbox\tsconfig.app.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\tsconfig.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\tsconfig.spec.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\yarn.lock
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\package_20220822113805.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\package_20220822133042.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\package_20220822133058.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\package_20220822133505.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\package_20220822133539.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\package_20220825102708.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.storybook\main.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\.storybook\preview.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\.storybook\tsconfig.json
+[10:54:01] Ignoring       : C:\dev\storybook\taskbox\.storybook\typings.d.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.vscode\settings.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\jest-config\setup.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\favicon.ico
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\index.html
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\main.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\polyfills.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\storybook.test.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\styles.css
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\.storybook\main_20220620165749.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\.storybook\main_20220822102458.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\.storybook\main_20220822103001.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\.storybook\main_20220822155113.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\.storybook\main_20220822155119.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\.storybook\main_20220822155515.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\.storybook\main_20220822155549.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\storybook.test_20220822113952.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\styles_20220620165749.css
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\styles_20220822155611.css
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\storybook.test_20220822113918.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\jest-config\__mocks__\fileMock.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\jest-config\__mocks__\globalMocks.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\jest-config\__mocks__\styleMock.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\app.component.html
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\app.component.ts
+[10:54:01] Ignoring       : C:\dev\storybook\taskbox\src\app\app.component.spec.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\app.module.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\.gitkeep
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\environments\environment.prod.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\environments\environment.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\.storybook\main_20220822155202.js
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\app.component.css
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.component_20220620165749.html
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.component_20220620165749.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.component_20220822093329.html
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.component_20220824175734.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.component_20220822093310.html
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822140548.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822142208.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822141253.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822142115.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822142524.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822143425.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822143448.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822144651.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822144718.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822144921.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822145245.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822145253.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220822150336.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220824162651.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220824165029.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220824170647.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220824170842.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220824171633.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220824171842.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220824175919.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220824175929.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220824180043.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220824180110.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220824180121.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220824180150.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825081336.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825081407.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825081418.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825081425.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825081439.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825081502.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825081552.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825081638.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825081654.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825081712.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825082430.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825082728.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825082752.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825082840.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825082904.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825084618.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825084645.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825084653.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825085028.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825085102.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825091755.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825091803.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825095037.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825095101.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825095159.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825095200.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825095202.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825100318.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825101128.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\app.module_20220825101507.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\components\inbox-screen.component.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\components\pure-inbox-screen.component.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\components\pure-inbox-screen.stories.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\components\pure-task-list.component.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\components\pure-task-list.stories.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\components\task-list.component.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\components\task.component.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\components\task.module.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\components\task.stories.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\models\task.model.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\models\taskState.model.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\app\state\task.state.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\font\OpenSans-Light-webfont.eot
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\font\OpenSans-Light-webfont.svg
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\font\OpenSans-Light-webfont.ttf
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\font\OpenSans-Light-webfont.woff
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\font\OpenSans-Regular-webfont.eot
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\font\OpenSans-Regular-webfont.svg
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\font\OpenSans-Regular-webfont.ttf
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\font\OpenSans-Regular-webfont.woff
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\icon\percolate.eot
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\icon\percolate.svg
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\icon\percolate.ttf
+[10:54:01] Including      : C:\dev\storybook\taskbox\src\assets\icon\percolate.woff
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\050566ae3355317408b885cbc9f627f9.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\060f18924e8467bceb8c2a3d24ee3e10.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\085eea58770be5fa6c56de89a1e0c101.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\063ebdfdc7088f00db17d2499d7e32dc.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\08c1190e8a3a837dc0a888d766d2291b.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\0b204a7ada742ec89b6a930520b2020a.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\0e103c976570bbabdd36eb6f02f43a36.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\138f99b03fdd79bc539791f55914cdd0.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\1edf4b33aa95770d0c14862c9661dbbe.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\1f7568d85dd7aeb668100523b188335e.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\266f4c8c17e1a23139909df5a20631aa.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\2da99de5c44e7c58d4a99f0c07769d84.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\3548cbc16ac35860abfa854ff99e7798.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\36360b533ff314b87a41b279189d929f.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\3ae37e768b2e5d1dcad72f6f37336a35.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\3e7f4ba0319bb8c991e7ee4f2f5609c2.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\3ec38418f7bdf643cae37240c4ebe25f.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\43f63ad022488d7ae631543ef5e7f82a.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\424181cce081a71ddc6a53e493d93c62.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\46122c94e5f846b8158c17a7f15b56ae.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\462ea4d06d0add3f2b26378dad11f268.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\48ce88dc69aab26d876d841412858527.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\4907253cebed297dc0a3777a4f05c599.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\4a7620ae1cf0e603708bc09f061c6710.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\4ff5cc97de9f67aceb49b2a5f44d399b.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\5183ae4a49af9c72936776b1e76c1b8d.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\518b9101c546e92e82126a1f08471439.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\5468f8aacefe510b471cad57a643327d.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\563ae957742d64da9de1d83e223304cf.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\5893fc4b42f29bd85bf8f83d29d46bea.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\59d1431fe9499c01e828feaae8d00ec8.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\59f5f334f12d5a469cc116a47dc43d52.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\5b60ce59081001169d976fa777d03f57.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\5d92c87ff865ca3b6ab5a7e7a026c15b.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\5deabb335afc42c771ca735af5a60a42.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\5ed940c31e19a1bba66544ed44d79210.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\61a890e594e0ac76762840cc48a5ed07.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\641f55f256ffa16bac5b4015d19ec513.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\689a71edee7165edb8ff12907255b014.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\698df41bf79601ff26231c218925a746.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\6c51f3d457024507d3459cd8d3ecb283.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\7058d18651a5f376933bfbf894438b48.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\7236d7106fc1c1a7a385e607d9744958.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\76a5374a1e33414a04f605f70d02bdbc.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\7b67f35a9d16789636e6c2203108d4ec.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\7eb120742a2c81bed2e6dc3e28304717.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\8096e74143fd403683dbe3bcf0d2b239.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\847c2f489f5aee8319af0917c420e1c9.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\848ade26f05abc0f9cca6da736b5716c.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\8725b37d3509df5f52d167f90999ee23.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\89bb6c32b1172521ad2b1039f10d3f10.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\8a2b80827ed9ff82d810aa93cd2ae135.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\8bc6f5fb1e344566b4cf110c7c06e89b.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\934150fe3120358ab1bfb4ff4d9e20a5.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\8d8f4c2d001945aa75a5b2cb9f93eba6.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\962fcc284b5a7fe28bf2c62f104cd242.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\a0af9054833a0811b427d344c9f7ab62.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\9b4d08c51d5126c7f517e784ab483f83.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\a1193bea5fc0dc8a4e1f46c7105c73ee.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\a2213c827bb033dd552742d716c28f38.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\a2966c5466f74fb3ba292aedf2aec383.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\a32b7996b32721450060a359d0ca09de.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\a703166046622132cede881fc7e6d577.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\a8a19dbd52788dfcbedeaebd2a012185.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\aaca8d26c9aacdaeca19b9cddd1c3632.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\ab824712b069ebc5596b94b1a4b4c698.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\b25d1a3250835fa30898c48d9fb7e526.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\b26d4551374f9cc13d63f27650673a72.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\b46a40d97ebd9769579d555c41348130.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\b5fca312d2fa19bd10555107ec0c508b.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\b612203eeb4e74761c341ca26be3880c.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\bb7eb136df7fa1870324c5be63fc648c.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\bc594dde07d344fca674a59aa758a02a.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\c02aa89a0b12f49019687797bfcb13ec.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\c1cb0994924e6ae6f4978f3bc9876174.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\c679bdd3ee6a3248e8b79ed2509bd2b1.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\c67d0947eda1a37ac5c51de3b1af0d38.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\c98e2c717f725aa53d3004ef30359a5d.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\cf11c3099b9b416647a4e13add58ed6e.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\cfed9a6a500302326ced7ed93377fe20.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\d0d9e83c59b67a5f589ed2d5ae574b03.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\d380c4a3fee5b48d40e0564a513cf567.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\d5202c2e8850bde694b4163a687e6a64.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\dcc9671b4ecb4b6d9095799dbe91dc91.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\df110a81a8f05b43649034d21da65ad4.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\df8695a4cfd94908167fe6ad027b5741.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\dfbb86cf3cb09af811563089ae5f4b13.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\e07e6e57d171c830f8d5bf7da5f364da.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\e2b624cb6e216e4bdb04f5da03c13977.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\e31866a002c2df86efe3c49c1851061c.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\e32e2da16b06806d211637beff5ad073.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\e3c0a55e314eadf98666355b3bc74665.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\e992d2274f94a20662923b98fcceaf8e.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\e9dc34d667547534334df7fddfb5559a.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\ea5717feaf080bb9de4a2e8831f201aa.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\eaa28074b967413f8dffe7b59ac4f9b4.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\edaa3a9c871a9c9b841b2f962ec75a86.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\ee18886607e8b534d1eb7f71cb85b53d.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\f09581a0d59eb7dc22b331a25341a875.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\f0c1c545e5d832ea8e4d22f2bb005215.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\f494f715ec5ec33bbbc5826789988a30.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\f70c75b4c7a8827ac89059bdd04556ac.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\f76823079ba0b9feda56f46b71a2d5ba.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\f7a679fb19eeb12806e723e8afbdb975.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\fa682e6fee901dda73dd65479747d45a.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\fdfdd162026cc702648c370d632fa1b7.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\fe821e6b10fc359d045889dc06306900.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\models\task.model_20220822104452.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\models\task.model_20220822104500.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\models\task.model_20220822104417.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\models\taskState.model_20220822175905.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\models\taskState.model_20220822175852.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\inbox-screen.component_20220824174736.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.component_20220824174412.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\inbox-screen.component_20220824174726.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825080952.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.component_20220824174355.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825081000.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825081907.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825100914.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825102229.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825102308.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825103458.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825103507.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825103538.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825103622.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825103748.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825103752.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825103757.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825103807.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825104020.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-inbox-screen.stories_20220825104026.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.component_20220824165015.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.component_20220824173629.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.component_20220824164714.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.component_20220825083151.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.component_20220825083156.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.component_20220825083220.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220822160605.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825085421.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825085638.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825085701.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825090622.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825090735.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825090628.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825091309.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825091330.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825091358.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825091603.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825091616.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825091627.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825091720.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825091835.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825095408.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825095434.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825095453.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825095503.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825095553.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825095640.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825095736.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825100139.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825100758.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\pure-task-list.stories_20220825100803.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220822144332.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220822145245.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220822145438.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220822145840.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220822150306.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220822152341.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220822160530.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220822163526.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220822163700.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220822160451.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220822163740.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824162916.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824162937.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824163044.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824165106.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824165212.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\babel-webpack\3f7ce21610efa23ed208d47117093971.json
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824170420.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824173202.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824172944.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824173707.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824173805.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824173824.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824173939.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220825083201.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220825083216.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822144023.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822145245.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822145944.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822145854.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822152803.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822152929.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822153116.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822153155.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822153205.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822154113.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822160554.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822160440.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822160602.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.stories_20220822160606.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822111926.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822150159.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822154940.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822155113.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822155258.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822160149.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822160235.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822160337.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822165424.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822165601.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822165625.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822165719.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822165732.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822165803.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822165841.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822165926.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822174031.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220824162112.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220824170610.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220824170647.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220824174546.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220824174749.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220824180110.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220824180121.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220824180150.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220824180153.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825081407.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825081425.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220822164538.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825081453.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825081519.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825081523.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825082419.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825081502.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825082752.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825082842.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825082840.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825084559.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825084707.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825085055.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825091814.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825095159.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825100048.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825100055.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.module_20220825101253.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.stories_20220822110738.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.stories_20220822160157.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.stories_20220822160447.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.stories_20220822160442.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task-list.component_20220824162112.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\state\task.state_20220822175147.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\state\task.state_20220822175347.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\state\task.state_20220822175905.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\state\task.state_20220822173140.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\state\task.state_20220824164139.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\state\task.state_20220824173320.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\state\task.state_20220824174139.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\state\task.state_20220824174203.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\state\task.state_20220825101742.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\state\task.state_20220824174252.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\state\task.state_20220825101824.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\task\task.component_20220822140510.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\task\task.component_20220822140616.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\state\task.state_20220824163804.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task.component_20220822165900.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\1.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\0.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\10.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\11.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\12.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\13.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\2.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\3.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\4.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\5.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\6.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\7.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\8.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\9.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\index.pack
+[10:54:01] Including      : C:\dev\storybook\taskbox\.angular\cache\13.3.7\angular-webpack\c98a33e08f8e119d9da881d132950fb054e48bce\index.pack.old
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component.stories_20220822090331.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component.stories_20220822092118.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component.stories_20220822092114.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component.stories_20220822083907.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component.stories_20220822103833.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component.stories_20220822110739.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component_20220822102702.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component_20220822084630.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component_20220822083846.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component_20220822103211.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component_20220822103224.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component_20220822105225.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component_20220822110245.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component_20220822110401.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component_20220822111140.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component_20220822111144.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component_20220822111901.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component_20220822111927.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task.component.stories_20220822110732.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\test-list.component_20220822142115.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\test-list.component_20220822143150.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\test-list.component_20220822143245.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\test-list.component_20220822143618.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\test-list.stories_20220822140730.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\test-list.stories_20220822143326.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\test-list.component_20220822140615.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\test-list.stories_20220822143332.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\test-list.stories_20220822143339.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\taskList\test-list.component_20220822140616.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\taskList\test-list.component_20220822134618.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\taskList\test-list.stories_20220822140731.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\taskList\test-list.stories_20220822134618.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\test-list.stories_20220822143315.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\test-list.stories_20220822140909.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task-list\task-list.component_20220822143736.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task-list\task-list.component_20220822143807.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task-list\task-list.component_20220822144105.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task-list\task-list.stories_20220822143745.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task-list\task-list.component_20220822144114.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task-list\task-list.component_20220822144333.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task-list\task-list.stories_20220822143823.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task-list\task-list.stories_20220822143912.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task-list\task-list.stories_20220822143956.ts
+[10:54:01] Including      : C:\dev\storybook\taskbox\.history\src\app\components\task\task-list\task-list.stories_20220822144024.ts
+[10:54:01] Searching package.json file
+[10:54:01] package.json file found
+[10:54:01] Processing package.json dependencies
+[10:54:01] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[10:54:01] README.md file found
+[10:54:01] Error during C:\dev\storybook\taskbox\CHANGELOG read
+[10:54:01] Continuing without CHANGELOG.md file
+[10:54:01] Error during C:\dev\storybook\taskbox\CONTRIBUTING read
+[10:54:01] Continuing without CONTRIBUTING.md file
+[10:54:01] LICENSE.md file found
+[10:54:01] Error during C:\dev\storybook\taskbox\TODO read
+[10:54:01] Continuing without TODO.md file
+[10:54:01] Get dependencies data
+[10:54:02] parsing        : C:/dev/storybook/taskbox/jest-config/setup.ts
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/main.ts
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/polyfills.ts
+[10:54:02] parsing        : C:/dev/storybook/taskbox/jest-config/__mocks__/globalMocks.ts
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/app.component.ts
+[10:54:02] found          : AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/app.module.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/environments/environment.prod.ts
+[10:54:02] found          : environment
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/environments/environment.ts
+[10:54:02] found          : environment
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.component_20220620165749.ts
+[10:54:02] found          : AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.component_20220824175734.ts
+[10:54:02] found          : AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822140548.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822142208.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822141253.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822142115.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822142524.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822143425.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822143448.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822144651.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822144718.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822144921.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822145245.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822145253.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220822150336.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220824162651.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220824165029.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220824170647.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220824170842.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220824171633.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220824171842.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220824175919.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220824175929.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220824180043.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220824180110.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220824180121.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220824180150.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825081336.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825081407.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825081418.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825081425.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825081439.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825081502.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825081552.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825081638.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825081654.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825081712.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825082430.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825082728.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825082752.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825082840.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825082904.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825084618.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825084645.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825084653.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825085028.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825085102.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825091755.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : 	- HttpClientModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825091803.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : 	- HttpClientModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825095037.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : 	- HttpClientModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825095101.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : 	- HttpClientModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825095159.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : 	- HttpClientModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825095200.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : 	- HttpClientModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825095202.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : 	- HttpClientModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825100318.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825101128.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/app.module_20220825101507.ts
+[10:54:02] found          : AppModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- BrowserModule
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : 	- NgxsReduxDevtoolsPluginModule
+[10:54:02]                : 	- NgxsLoggerPluginModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskModule
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- AppComponent
+[10:54:02]                : 	- InboxScreenComponent
+[10:54:02]                : 	- PureInboxScreenComponent
+[10:54:02]                : - bootstrap:
+[10:54:02]                : 	- AppComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/components/inbox-screen.component.ts
+[10:54:02] found          : InboxScreenComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/components/pure-inbox-screen.component.ts
+[10:54:02] found          : PureInboxScreenComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/components/pure-inbox-screen.stories.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/components/pure-task-list.component.ts
+[10:54:02] found          : PureTaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/components/pure-task-list.stories.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/components/task-list.component.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/components/task.component.ts
+[10:54:02] found          : TaskComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/components/task.module.ts
+[10:54:02] found          : TaskModule
+[10:54:02]                : - imports:
+[10:54:02]                : 	- CommonModule
+[10:54:02]                : 	- NgxsModule
+[10:54:02]                : - exports:
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : - declarations:
+[10:54:02]                : 	- TaskComponent
+[10:54:02]                : 	- TaskListComponent
+[10:54:02]                : 	- PureTaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/components/task.stories.ts
+[10:54:02] found          : actionsData
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Pinned
+[10:54:02] found          : Archived
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/models/task.model.ts
+[10:54:02] found          : Task
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/models/taskState.model.ts
+[10:54:02] found          : TaskStateModel
+[10:54:02] parsing        : C:/dev/storybook/taskbox/src/app/state/task.state.ts
+[10:54:02] found          : actions
+[10:54:02] found          : ArchiveTask
+[10:54:02] found          : AppError
+[10:54:02] found          : PinTask
+[10:54:02] found          : defaultTasks
+[10:54:02] found          : TaskStateModel
+[10:54:02] found          : TasksState
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/models/task.model_20220822104452.ts
+[10:54:02] found          : Task
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/models/task.model_20220822104500.ts
+[10:54:02] found          : Task
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/models/task.model_20220822104417.ts
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/models/taskState.model_20220822175905.ts
+[10:54:02] found          : TaskStateModel
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/models/taskState.model_20220822175852.ts
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/inbox-screen.component_20220824174736.ts
+[10:54:02] found          : InboxScreenComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.component_20220824174412.ts
+[10:54:02] found          : PureInboxScreenComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/inbox-screen.component_20220824174726.ts
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825080952.ts
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.component_20220824174355.ts
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825081000.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825081907.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825100914.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825102229.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825102308.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825103458.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825103507.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825103538.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825103622.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825103748.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825103752.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825103757.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825103807.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825104020.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-inbox-screen.stories_20220825104026.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : Error
+[10:54:02] found          : WithInteractions
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.component_20220824165015.ts
+[10:54:02] found          : PureTaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.component_20220824173629.ts
+[10:54:02] found          : PureTaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.component_20220824164714.ts
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.component_20220825083151.ts
+[10:54:02] found          : PureTaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.component_20220825083156.ts
+[10:54:02] found          : PureTaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.component_20220825083220.ts
+[10:54:02] found          : PureTaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220822160605.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825085421.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825085638.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825085701.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825090622.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825090735.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825090628.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825091309.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825091330.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825091358.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825091603.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825091616.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825091627.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825091720.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825091835.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825095408.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825095434.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825095453.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825095503.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825095553.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825095640.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825095736.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825100139.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825100758.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/pure-task-list.stories_20220825100803.ts
+[10:54:02] found          : Template
+[10:54:02] found          : Default
+[10:54:02] found          : WithPinnedTasks
+[10:54:02] found          : Loading
+[10:54:02] found          : Empty
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220822144332.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220822145245.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220822145438.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220822145840.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220822150306.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220822152341.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220822160530.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220822163526.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220822163700.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220822160451.ts
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220822163740.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824162916.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824162937.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824163044.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824165106.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824165212.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824170420.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824173202.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824172944.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824173707.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824173805.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824173824.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824173939.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220825083201.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220825083216.ts
+[10:54:02] found          : TaskListComponent
+[10:54:02] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822144023.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822145245.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822145944.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822145854.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822152803.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822152929.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822153116.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822153155.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822153205.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822154113.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822160554.ts
+[10:54:03] found          : Template
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822160440.ts
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822160602.ts
+[10:54:03] found          : Template
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.stories_20220822160606.ts
+[10:54:03] found          : Template
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822111926.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822150159.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822154940.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822155113.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822155258.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822160149.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822160235.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822160337.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822165424.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822165601.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822165625.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822165719.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822165732.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822165803.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822165841.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822165926.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822174031.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220824162112.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220824170610.ts
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220824170647.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : 	- PureTaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220824174546.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : 	- PureTaskListComponent
+[10:54:03]                : 	- PureInboxScreenComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220824174749.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : 	- PureTaskListComponent
+[10:54:03]                : 	- PureInboxScreenComponent
+[10:54:03]                : 	- InboxScreenComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220824180110.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : 	- InboxScreenComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220824180121.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : 	- InboxScreenComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220824180150.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220824180153.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825081407.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : 	- PureInboxScreenComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825081425.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220822164538.ts
+[10:54:03] found          : TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825081453.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825081519.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825081523.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825082419.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825081502.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825082752.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825082842.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825082840.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825084559.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825084707.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825085055.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825091814.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : 	- HttpClientModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825095159.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : 	- HttpClientModule
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825100048.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825100055.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.module_20220825101253.ts
+[10:54:03] found          : TaskModule
+[10:54:03]                : - imports:
+[10:54:03]                : 	- CommonModule
+[10:54:03]                : 	- NgxsModule
+[10:54:03]                : - exports:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : - declarations:
+[10:54:03]                : 	- TaskComponent
+[10:54:03]                : 	- TaskListComponent
+[10:54:03]                : 	- PureTaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.stories_20220822110738.ts
+[10:54:03] found          : actionsData
+[10:54:03] found          : taskData
+[10:54:03] found          : Default
+[10:54:03] found          : Pinned
+[10:54:03] found          : Archived
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.stories_20220822160157.ts
+[10:54:03] found          : actionsData
+[10:54:03] found          : Template
+[10:54:03] found          : Default
+[10:54:03] found          : Pinned
+[10:54:03] found          : Archived
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.stories_20220822160447.ts
+[10:54:03] found          : actionsData
+[10:54:03] found          : Template
+[10:54:03] found          : Default
+[10:54:03] found          : Pinned
+[10:54:03] found          : Archived
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.stories_20220822160442.ts
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task-list.component_20220824162112.ts
+[10:54:03] found          : TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/state/task.state_20220822175147.ts
+[10:54:03] found          : actions
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/state/task.state_20220822175347.ts
+[10:54:03] found          : actions
+[10:54:03] found          : ArchiveTask
+[10:54:03] found          : PinTask
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/state/task.state_20220822175905.ts
+[10:54:03] found          : actions
+[10:54:03] found          : ArchiveTask
+[10:54:03] found          : PinTask
+[10:54:03] found          : defaultTasks
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/state/task.state_20220822173140.ts
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/state/task.state_20220824164139.ts
+[10:54:03] found          : actions
+[10:54:03] found          : ArchiveTask
+[10:54:03] found          : PinTask
+[10:54:03] found          : defaultTasks
+[10:54:03] found          : TaskStateModel
+[10:54:03] found          : TasksState
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/state/task.state_20220824173320.ts
+[10:54:03] found          : actions
+[10:54:03] found          : ArchiveTask
+[10:54:03] found          : PinTask
+[10:54:03] found          : defaultTasks
+[10:54:03] found          : TaskStateModel
+[10:54:03] found          : TasksState
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/state/task.state_20220824174139.ts
+[10:54:03] found          : actions
+[10:54:03] found          : ArchiveTask
+[10:54:03] found          : PinTask
+[10:54:03] found          : defaultTasks
+[10:54:03] found          : TaskStateModel
+[10:54:03] found          : TasksState
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/state/task.state_20220824174203.ts
+[10:54:03] found          : actions
+[10:54:03] found          : ArchiveTask
+[10:54:03] found          : AppError
+[10:54:03] found          : PinTask
+[10:54:03] found          : defaultTasks
+[10:54:03] found          : TaskStateModel
+[10:54:03] found          : TasksState
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/state/task.state_20220825101742.ts
+[10:54:03] found          : actions
+[10:54:03] found          : ArchiveTask
+[10:54:03] found          : AppError
+[10:54:03] found          : PinTask
+[10:54:03] found          : defaultTasks
+[10:54:03] found          : TaskStateModel
+[10:54:03] found          : TasksState
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/state/task.state_20220824174252.ts
+[10:54:03] found          : actions
+[10:54:03] found          : ArchiveTask
+[10:54:03] found          : AppError
+[10:54:03] found          : PinTask
+[10:54:03] found          : defaultTasks
+[10:54:03] found          : TaskStateModel
+[10:54:03] found          : TasksState
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/state/task.state_20220825101824.ts
+[10:54:03] found          : actions
+[10:54:03] found          : ArchiveTask
+[10:54:03] found          : AppError
+[10:54:03] found          : PinTask
+[10:54:03] found          : defaultTasks
+[10:54:03] found          : TaskStateModel
+[10:54:03] found          : TasksState
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/task/task.component_20220822140510.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/task/task.component_20220822140616.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/state/task.state_20220824163804.ts
+[10:54:03] found          : actions
+[10:54:03] found          : ArchiveTask
+[10:54:03] found          : PinTask
+[10:54:03] found          : defaultTasks
+[10:54:03] found          : TaskStateModel
+[10:54:03] found          : TasksState
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task.component_20220822165900.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component.stories_20220822090331.ts
+[10:54:03] found          : ActionsData
+[10:54:03] found          : taskData
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component.stories_20220822092118.ts
+[10:54:03] found          : actionsData
+[10:54:03] found          : taskData
+[10:54:03] found          : Default
+[10:54:03] found          : Archived
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component.stories_20220822092114.ts
+[10:54:03] found          : actionsData
+[10:54:03] found          : taskData
+[10:54:03] found          : Default
+[10:54:03] found          : Archived
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component.stories_20220822083907.ts
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component.stories_20220822103833.ts
+[10:54:03] found          : actionsData
+[10:54:03] found          : taskData
+[10:54:03] found          : Default
+[10:54:03] found          : Pinned
+[10:54:03] found          : Archived
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component.stories_20220822110739.ts
+[10:54:03] found          : actionsData
+[10:54:03] found          : taskData
+[10:54:03] found          : Default
+[10:54:03] found          : Pinned
+[10:54:03] found          : Archived
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component_20220822102702.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component_20220822084630.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component_20220822083846.ts
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component_20220822103211.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component_20220822103224.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component_20220822105225.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component_20220822110245.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component_20220822110401.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component_20220822111140.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component_20220822111144.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component_20220822111901.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component_20220822111927.ts
+[10:54:03] found          : TaskComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task.component.stories_20220822110732.ts
+[10:54:03] found          : actionsData
+[10:54:03] found          : taskData
+[10:54:03] found          : Default
+[10:54:03] found          : Pinned
+[10:54:03] found          : Archived
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/test-list.component_20220822142115.ts
+[10:54:03] found          : TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/test-list.component_20220822143150.ts
+[10:54:03] found          : TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/test-list.component_20220822143245.ts
+[10:54:03] found          : TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/test-list.component_20220822143618.ts
+[10:54:03] found          : TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/test-list.stories_20220822140730.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/test-list.stories_20220822143326.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/test-list.component_20220822140615.ts
+[10:54:03] found          : TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/test-list.stories_20220822143332.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/test-list.stories_20220822143339.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/taskList/test-list.component_20220822140616.ts
+[10:54:03] found          : TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/taskList/test-list.component_20220822134618.ts
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/taskList/test-list.stories_20220822140731.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/taskList/test-list.stories_20220822134618.ts
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/test-list.stories_20220822143315.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/test-list.stories_20220822140909.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task-list/task-list.component_20220822143736.ts
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task-list/task-list.component_20220822143807.ts
+[10:54:03] found          : TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task-list/task-list.component_20220822144105.ts
+[10:54:03] found          : TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task-list/task-list.stories_20220822143745.ts
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task-list/task-list.component_20220822144114.ts
+[10:54:03] found          : TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task-list/task-list.component_20220822144333.ts
+[10:54:03] found          : TaskListComponent
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task-list/task-list.stories_20220822143823.ts
+[10:54:03] found          : Template
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task-list/task-list.stories_20220822143912.ts
+[10:54:03] found          : Template
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task-list/task-list.stories_20220822143956.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] parsing        : C:/dev/storybook/taskbox/.history/src/app/components/task/task-list/task-list.stories_20220822144024.ts
+[10:54:03] found          : defaultTasksData
+[10:54:03] found          : withPinnedTasksData
+[10:54:03] found          : Default
+[10:54:03] found          : WithPinnedTasks
+[10:54:03] found          : Loading
+[10:54:03] found          : Empty
+[10:54:03] -------------------
+[10:54:03] Project statistics 
+[10:54:03] - files      : 466
+[10:54:03] - module     : 82
+[10:54:03] - component  : 83
+[10:54:03] - injectable : 9
+[10:54:03] - class      : 27
+[10:54:03] - interface  : 14
+[10:54:03] -------------------
+[10:54:03] Prepare components
+[10:54:03]  AppComponent has a templateUrl, include it
+[10:54:03]  AppComponent has styleUrls, include them
+[10:54:03]  AppComponent has a templateUrl, include it
+[10:54:03] Cannot read template for AppComponent
+[10:54:03]  AppComponent has styleUrls, include them
+[10:54:03] Cannot read style url C:\dev\storybook\taskbox\.history\src\app\app.component.css for AppComponent
+info @storybook/angular v6.5.7
+info 
+info => Cleaning outputDir: C:\\Users\\JEFFER~1.SCH\\AppData\\Local\\Temp\\chromatic--13080-Ivs21qJtBFMe
+info => Loading presets
+WARN   Failed to load preset: {"type":"presets"} on level 1
+ERR! TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received an instance of Object
+ERR!     at new NodeError (node:internal/errors:372:5)
+ERR!     at validateString (node:internal/validators:120:11)
+ERR!     at Module.require (node:internal/modules/cjs/loader:998:3)
+ERR!     at require (node:internal/modules/cjs/helpers:102:18)
+ERR!     at interopRequireDefault (C:\dev\storybook\taskbox\node_modules\@storybook\core-common\dist\cjs\presets.js:178:16)
+ERR!     at getContent (C:\dev\storybook\taskbox\node_modules\@storybook\core-common\dist\cjs\presets.js:194:10)
+ERR!     at loadPreset (C:\dev\storybook\taskbox\node_modules\@storybook\core-common\dist\cjs\presets.js:203:20)
+ERR!     at C:\dev\storybook\taskbox\node_modules\@storybook\core-common\dist\cjs\presets.js:256:18
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (C:\dev\storybook\taskbox\node_modules\@storybook\core-common\dist\cjs\presets.js:255:18)
+ERR!  TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received an instance of Object
+ERR!     at new NodeError (node:internal/errors:372:5)
+ERR!     at validateString (node:internal/validators:120:11)
+ERR!     at Module.require (node:internal/modules/cjs/loader:998:3)
+ERR!     at require (node:internal/modules/cjs/helpers:102:18)
+ERR!     at interopRequireDefault (C:\dev\storybook\taskbox\node_modules\@storybook\core-common\dist\cjs\presets.js:178:16)
+ERR!     at getContent (C:\dev\storybook\taskbox\node_modules\@storybook\core-common\dist\cjs\presets.js:194:10)
+ERR!     at loadPreset (C:\dev\storybook\taskbox\node_modules\@storybook\core-common\dist\cjs\presets.js:203:20)
+ERR!     at C:\dev\storybook\taskbox\node_modules\@storybook\core-common\dist\cjs\presets.js:256:18
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (C:\dev\storybook\taskbox\node_modules\@storybook\core-common\dist\cjs\presets.js:255:18) {
+ERR!   code: 'ERR_INVALID_ARG_TYPE'
+ERR! }
+info => Compiling manager..
+info => Compiling preview..
+info Addon-docs: using MDX1
+info => Using implicit CSS loaders
+info => Loading angular-cli config for angular >= 13.0.0
+info => Using angular project with "tsConfig:C:\dev\storybook\taskbox\.storybook\tsconfig.json"
+WARN Your Storybook startup uses a solution that will not be supported in version 7.0. 
+WARN You must use angular builder to have an explicit configuration on the project used in angular.json
+WARN Read more at:
+WARN - https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#sb-angular-builder)
+WARN - https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#angular13)
+info => Using angular project "taskbox:build" for configuring Storybook
+info => Using default Webpack5 setup
+<s> [webpack.Progress] 0% 
+
+<s> [webpack.Progress] 1% setup before run
+<s> [webpack.Progress] 1% setup before run NodeEnvironmentPlugin
+<s> [webpack.Progress] 1% setup before run
+<s> [webpack.Progress] 2% setup run
+<s> [webpack.Progress] 2% setup run
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 4% setup normal module factory CaseSensitivePathsPlugin
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 6% setup before compile angular-compiler
+<s> [webpack.Progress] 6% setup before compile ProgressPlugin
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 7% setup compile ExternalsPlugin
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 8% setup compilation CopyPlugin
+<s> [webpack.Progress] 8% setup compilation angular-compiler
+<s> [webpack.Progress] 8% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 8% setup compilation ArrayPushCallbackChunkFormatPlugin
+<s> [webpack.Progress] 8% setup compilation JsonpChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation StartupChunkDependenciesPlugin
+<s> [webpack.Progress] 8% setup compilation ImportScriptsChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileWasmPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileAsyncWasmPlugin
+<s> [webpack.Progress] 8% setup compilation WorkerPlugin
+<s> [webpack.Progress] 8% setup compilation SplitChunksPlugin
+<s> [webpack.Progress] 8% setup compilation RuntimeChunkPlugin
+<s> [webpack.Progress] 8% setup compilation ResolverCachePlugin
+<s> [webpack.Progress] 8% setup compilation HtmlWebpackPlugin
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 9% setup compilation named-chunks-plugin
+<s> [webpack.Progress] 9% setup compilation DedupeModuleResolvePlugin
+<s> [webpack.Progress] 9% setup compilation AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 9% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 9% setup compilation SuppressExtractedTextChunks
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation ProvidePlugin
+<s> [webpack.Progress] 9% setup compilation ProgressPlugin
+<s> [webpack.Progress] 9% setup compilation ChunkPrefetchPreloadPlugin
+<s> [webpack.Progress] 9% setup compilation SourceMapDevToolPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptModulesPlugin
+<s> [webpack.Progress] 9% setup compilation JsonModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AssetModulesPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation RuntimePlugin
+<s> [webpack.Progress] 9% setup compilation InferAsyncModulesPlugin
+<s> [webpack.Progress] 9% setup compilation DataUriPlugin
+<s> [webpack.Progress] 9% setup compilation FileUriPlugin
+<s> [webpack.Progress] 9% setup compilation CompatibilityPlugin
+<s> [webpack.Progress] 9% setup compilation HarmonyModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AMDPlugin
+<s> [webpack.Progress] 9% setup compilation RequireJsStuffPlugin
+<s> [webpack.Progress] 9% setup compilation CommonJsPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation NodeStuffPlugin
+<s> [webpack.Progress] 9% setup compilation APIPlugin
+<s> [webpack.Progress] 9% setup compilation ExportsInfoApiPlugin
+<s> [webpack.Progress] 9% setup compilation WebpackIsIncludedPlugin
+<s> [webpack.Progress] 9% setup compilation ConstPlugin
+<s> [webpack.Progress] 9% setup compilation UseStrictPlugin
+<s> [webpack.Progress] 9% setup compilation RequireIncludePlugin
+<s> [webpack.Progress] 9% setup compilation RequireEnsurePlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation ImportPlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation SystemPlugin
+<s> [webpack.Progress] 9% setup compilation ImportMetaPlugin
+<s> [webpack.Progress] 9% setup compilation URLPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsFactoryPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPresetPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPrinterPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptMetaInfoPlugin
+<s> [webpack.Progress] 9% setup compilation EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 9% setup compilation RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 9% setup compilation MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 9% setup compilation FlagIncludedChunksPlugin
+<s> [webpack.Progress] 9% setup compilation SideEffectsFlagPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyExportsPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyUsagePlugin
+<s> [webpack.Progress] 9% setup compilation InnerGraphPlugin
+<s> [webpack.Progress] 9% setup compilation MangleExportsPlugin
+<s> [webpack.Progress] 9% setup compilation ModuleConcatenationPlugin
+<s> [webpack.Progress] 9% setup compilation NoEmitOnErrorsPlugin
+<s> [webpack.Progress] 9% setup compilation RealContentHashPlugin
+<s> [webpack.Progress] 9% setup compilation WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 9% setup compilation NamedModuleIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation TerserPlugin
+<s> [webpack.Progress] 9% setup compilation TemplatedPathPlugin
+<s> [webpack.Progress] 9% setup compilation RecordIdsPlugin
+<s> [webpack.Progress] 9% setup compilation WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 9% setup compilation IgnoreWarningsPlugin
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 10% building
+<s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/mini-css-extract-plugin/dist/loader.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/css-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/postcss-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building 0/17 entries 2/17 dependencies 0/2 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
+<s> [webpack.Progress] 10% building 0/17 entries 12/18 dependencies 0/12 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@ngtools/webpack/src/ivy/index.js
+<s> [webpack.Progress] 10% building 0/17 entries 14/18 dependencies 0/14 modules
+<s> [webpack.Progress] 10% building 0/17 entries 71/100 dependencies 0/44 modules
+<s> [webpack.Progress] 13% building 1/17 entries 116/147 dependencies 2/73 modules
+<s> [webpack.Progress] 13% building import loader ./node_modules/@storybook/source-loader/dist/cjs/index.js
+<s> [webpack.Progress] 13% building 1/17 entries 124/151 dependencies 2/80 modules
+<s> [webpack.Progress] 13% building 1/17 entries 229/268 dependencies 10/125 modules
+<s> [webpack.Progress] 13% building 1/17 entries 304/433 dependencies 30/133 modules
+<s> [webpack.Progress] 16% building 2/17 entries 335/450 dependencies 36/133 modules
+<s> [webpack.Progress] 16% building 2/17 entries 700/874 dependencies 67/260 modules
+<s> [webpack.Progress] 19% building 3/17 entries 825/878 dependencies 71/280 modules
+<s> [webpack.Progress] 19% building 3/17 entries 886/1100 dependencies 81/301 modules
+<s> [webpack.Progress] 19% building 3/17 entries 1246/1400 dependencies 145/384 modules
+<s> [webpack.Progress] 19% building 3/17 entries 1300/1685 dependencies 155/396 modules
+<s> [webpack.Progress] 19% building 3/17 entries 1308/1700 dependencies 155/405 modules
+<s> [webpack.Progress] 19% building 3/17 entries 1400/1875 dependencies 156/487 modules
+<s> [webpack.Progress] 22% building 4/17 entries 1896/2137 dependencies 198/602 modules
+<s> [webpack.Progress] 22% building 4/17 entries 2500/2685 dependencies 281/662 modules
+<s> [webpack.Progress] 22% building 4/17 entries 2855/2900 dependencies 282/852 modules
+<s> [webpack.Progress] 22% building 4/17 entries 3448/3507 dependencies 353/900 modules
+<s> [webpack.Progress] 22% building 4/17 entries 3700/3811 dependencies 429/950 modules
+<s> [webpack.Progress] 22% building 4/17 entries 4135/4200 dependencies 452/994 modules
+<s> [webpack.Progress] 22% building 4/17 entries 4346/4400 dependencies 557/1026 modules
+<s> [webpack.Progress] 22% building 4/17 entries 4701/4749 dependencies 786/1100 modules
+<s> [webpack.Progress] 22% building 4/17 entries 4847/4990 dependencies 800/1126 modules
+<s> [webpack.Progress] 22% building 4/17 entries 4900/4990 dependencies 825/1148 modules
+<s> [webpack.Progress] 22% building 4/17 entries 5045/5200 dependencies 882/1162 modules
+<s> [webpack.Progress] 22% building 4/17 entries 5500/5580 dependencies 1006/1318 modules
+<s> [webpack.Progress] 22% building 4/17 entries 5900/6163 dependencies 1156/1465 modules
+<s> [webpack.Progress] 22% building 4/17 entries 5958/6163 dependencies 1174/1500 modules
+<s> [webpack.Progress] 25% building 4/17 entries 6274/6300 dependencies 1393/1611 modules
+<s> [webpack.Progress] 25% building 4/17 entries 6445/6500 dependencies 1452/1634 modules
+<s> [webpack.Progress] 27% building 5/17 entries 6657/6667 dependencies 1568/1678 modules
+<s> [webpack.Progress] 29% building 6/17 entries 6657/6667 dependencies 1569/1678 modules
+<s> [webpack.Progress] 32% building 7/17 entries 6657/6667 dependencies 1570/1678 modules
+<s> [webpack.Progress] 35% building 8/17 entries 6657/6667 dependencies 1571/1678 modules
+<s> [webpack.Progress] 39% building 9/17 entries 6657/6667 dependencies 1572/1678 modules
+<s> [webpack.Progress] 42% building 10/17 entries 6657/6667 dependencies 1573/1678 modules
+<s> [webpack.Progress] 45% building 11/17 entries 6657/6667 dependencies 1574/1678 modules
+<s> [webpack.Progress] 48% building 12/17 entries 6657/6667 dependencies 1575/1678 modules
+<s> [webpack.Progress] 52% building 13/17 entries 6661/6669 dependencies 1592/1680 modules
+<s> [webpack.Progress] 52% building 13/17 entries 6883/6900 dependencies 1667/1739 modules
+<s> [webpack.Progress] 55% building 14/17 entries 6915/6922 dependencies 1700/1744 modules
+<s> [webpack.Progress] 58% building 15/17 entries 6915/6922 dependencies 1700/1744 modules
+<s> [webpack.Progress] 61% building 16/17 entries 6930/6930 dependencies 1726/1751 modules
+<s> [webpack.Progress] 65% building 17/17 entries 6931/6931 dependencies 1751/1751 modules
+<s> [webpack.Progress] 65% building
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing finish module graph angular-compiler
+<s> [webpack.Progress] 70% sealing finish module graph ResolverCachePlugin
+<s> [webpack.Progress] 70% sealing finish module graph InferAsyncModulesPlugin
+<s> [webpack.Progress] 70% sealing finish module graph FlagDependencyExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph InnerGraphPlugin
+<s> [webpack.Progress] 70% sealing finish module graph WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 70% sealing plugins WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing dependencies optimization SideEffectsFlagPlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization FlagDependencyUsagePlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 75% sealing chunk optimization EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization SplitChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization ModuleConcatenationPlugin
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 79% sealing module reviving RecordIdsPlugin
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 80% sealing module ids NamedModuleIdsPlugin
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 82% sealing chunk reviving RecordIdsPlugin
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 84% sealing chunk id optimization FlagIncludedChunksPlugin
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record modules RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 86% sealing record chunks RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 92% sealing asset processing copy-webpack-plugin
+<s> [webpack.Progress] 92% sealing asset processing PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 92% sealing asset processing TerserPlugin
+info => Manager built (48 s)
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.css generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.css generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.22e9bed6.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.22e9bed6.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.e9e7bf2b.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.e9e7bf2b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 747.13f1d443.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 747.13f1d443.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 366.bf987de2.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 366.bf987de2.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 239.358924bb.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 239.358924bb.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 471.c278961b.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 471.c278961b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 345.793cee98.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 345.793cee98.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 39.920b7308.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 39.920b7308.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 996.b03aef82.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 996.b03aef82.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 225.ff116299.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 225.ff116299.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 291.03611412.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 291.03611412.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 145.7a4d4cac.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 145.7a4d4cac.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 145.7a4d4cac.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 145.7a4d4cac.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.cd22d45c.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.cd22d45c.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.dba82a50.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.dba82a50.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 747.2e592bfe.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 747.2e592bfe.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 345.b8f4061f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 345.b8f4061f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 996.66e30629.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 996.66e30629.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 225.adf1b44b.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 225.adf1b44b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 366.3f47d232.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 366.3f47d232.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 239.43bc22d7.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 239.43bc22d7.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 471.135959ca.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 471.135959ca.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 39.2ed10874.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 39.2ed10874.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 291.4044512f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 291.4044512f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 98% emitting after emit SizeLimitsPlugin
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% done plugins CaseSensitivePathsPlugin
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% 
+
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 100% 
+
+info => Preview built (57 s)
+WARN C:/dev/storybook/taskbox/src/app/app.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/dev/storybook/taskbox/src/app/app.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/dev/storybook/taskbox/src/app/components/inbox-screen.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/dev/storybook/taskbox/src/app/models/taskState.model.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/dev/storybook/taskbox/src/environments/environment.prod.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/dev/storybook/taskbox/src/environments/environment.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/dev/storybook/taskbox/src/main.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   366.3f47d232.iframe.bundle.js (601 KiB)
+WARN   471.135959ca.iframe.bundle.js (791 KiB)
+WARN   145.1fb625ee.iframe.bundle.js (3.14 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (3.26 MiB)
+WARN       runtime~main.dba82a50.iframe.bundle.js
+WARN       145.1fb625ee.iframe.bundle.js
+WARN       main.css
+WARN       main.cd22d45c.iframe.bundle.js
+WARN 
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 100% 
+
+info => Output directory: C:\\Users\\JEFFER~1.SCH\\AppData\\Local\\Temp\\chromatic--13080-Ivs21qJtBFMe

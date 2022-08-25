@@ -2,10 +2,13 @@
   "name": "taskbox",
   "version": "0.1.0",
   "description": "Starter template to get up and running quickly with Angular and Storybook",
-  "author": "Chromatic <https://chromatic.com/>",
+  "author": {
+    "name": "Chromatic",
+    "email": "https://chromatic.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chromaui/intro-storybook-angular-template"
+    "url": "git+https://github.com/chromaui/intro-storybook-angular-template.git"
   },
   "bugs": {
     "url": "https://github.com/chromaui/intro-storybook-angular-template/issues"
@@ -21,7 +24,8 @@
     "storybook": "npm run docs:json && start-storybook -p 6006",
     "build-storybook": "npm run docs:json && build-storybook",
     "test-storybook": "test-storybook",
-    "init-msw": "msw init src/"
+    "init-msw": "msw init src/",
+    "chromatic": "npx chromatic --project-token=7bc33762eb42"
   },
   "private": true,
   "dependencies": {
@@ -66,5 +70,8 @@
     "msw": "^0.42.0",
     "msw-storybook-addon": "^1.6.3",
     "typescript": "~4.6.2"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/chromaui/intro-storybook-angular-template#readme",
+  "_id": "taskbox@0.1.0"
 }
